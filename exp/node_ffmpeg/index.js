@@ -1,6 +1,6 @@
-var path = require('path')
+const path = require('path');
 const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
-var ffmpeg = require('fluent-ffmpeg');
+const ffmpeg = require('fluent-ffmpeg');
 
 ffmpeg.setFfmpegPath(ffmpegPath);
 
